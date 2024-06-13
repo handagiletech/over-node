@@ -1,3 +1,4 @@
 #!/bin/bash
 
-./execution/geth --http x --dolphin --datadir=./data
+cd ./execution
+./geth --http --http.addr 0.0.0.0 --dolphin --datadir=./data
